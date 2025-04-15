@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Enigma dos Pares</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/236f7dfd45.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">O Enigma dos Pares</div>
+
+      <div class="temp">
+        <span id="timer"></span>
+        <span id="moves"></span>
+      </div>
+      <div class="icons">
+        <i class="fa-solid fa-circle-pause" id="pause"></i>
+        <i class="fa-solid fa-circle-info" id="info"></i>
+      </div>
+    </header>
+
+    <main>
+      <section class="info">
+        <i class="fa-solid fa-xmark"></i>
+        <div>
+          <h2>REGRAS</h2>
+          <p>
+            Clique em duas cartas para ver se elas correspondem. Seu objetivo é encontrar pares
+            de cartas correspondentes no menor tempo possível e com o menor número possível de cartas
+            número de movimentos. Desafie sua memória e aproveite este estimulante
+            jogo! Boa sorte!
+          </p>
+        </div>
+        <div>
+          <h2>Creditos</h2>
+          <p>
+            IMAGENS
+            <a href="https://br.freepik.com/autor/catalyststuff" target="_blank"
+              >@catalyststuff</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="start">
+        <img src="" alt="" />
+        <h1>O Enigma dos Pares</h1>
+        <button id="play">JOGAR</button>
+      </section>
+
+      <section class="cards"></section>
+
+      <section class="pause">
+        <h2>PAUSE</h2>
+        <button id="exit">SAIR DO JOGO</button>
+        <button id="continue">CONTINUAR</button>
+      </section>
+
+      <section class="win">
+        <h2>
+          Parabéns! <br />
+        </h2>
+        <div><img src=".\imagem\fantastico.jpg" alt="" /></div>
+        <button>SAIR</button>
+        <button>JOGAR NOVAMENTO</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
