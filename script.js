@@ -117,7 +117,7 @@ const createCards = (animal) => {
   divBack.className = "card back";
   card.setAttribute("data-info", animal);
 
-  divFront.style.backgroundImage = `url(imagem/${animal}.jpg)`;
+  divFront.style.backgroundImage = `url(./img/${animal}.jpg)`;
 
   card.appendChild(divFront);
   card.appendChild(divBack);
